@@ -299,6 +299,7 @@ html.noscroll
 	color: #fff;
 	transition: all .4s ease;
 	text-decoration: none;
+	background: transparent;
 }
 .mobileNavigation .navbar-menu
 {
