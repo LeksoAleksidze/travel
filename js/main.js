@@ -28,53 +28,6 @@ menuhum.addEventListener("click", ()=>{
 });
 
 
-  // let main_menu = $("navbar-menu ul.menu li a ");
-  // main_menu.on('click', function() {
-  //   main_menu.removeClass("active");
-  //   $(this).addClass("active");
-  // });
-
-
-// let x = document.getElementById('login');
-// let y = document.getElementById('register');
-// let z = document.getElementById('btn');
-
-// function register(){
-//   x.style.left = " -400px";
-//   y.style.left = " 50px";
-//   z.style.left = "130px"
-// };
-// function login(){
-//   x.style.left = " 50px";
-//   y.style.left = " 450px";
-//   z.style.left = "0px"
-// };
-
-
-
-// const open = document.getElementById("loginForm");
-// function auth(){
-
-// open.style.opacity = "1";
-//   x.style.left = " 50px";
-//   y.style.left = " 450px";
-//   z.style.left = "0px"
-
-// };
-
-// function reg(){
-
-//   x.style.left = " -400px";
-//   y.style.left = " 50px";
-//   z.style.left = "130px"
-// open.style.opacity = "1";
-// };
-
-
-// function closeLogin(){
-
-//   open.style.opacity = "0";
-// }
 
 
 let loginbtn = document.getElementById('login');
@@ -92,6 +45,15 @@ function login(){
   registerbtn.style.left = " 450px";
   btn.style.left = "0px"
 };
+
+
+function closeLogin(){
+
+loginbtn.reset();
+registerbtn.reset();
+open.style.opacity = "0";
+}
+
 
 
 
@@ -115,7 +77,3 @@ function reg(){
 };
 
 
-function closeLogin(){
-
-  open.style.opacity = "0";
-}
