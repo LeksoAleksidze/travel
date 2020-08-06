@@ -34,3 +34,88 @@ menuhum.addEventListener("click", ()=>{
   //   $(this).addClass("active");
   // });
 
+
+// let x = document.getElementById('login');
+// let y = document.getElementById('register');
+// let z = document.getElementById('btn');
+
+// function register(){
+//   x.style.left = " -400px";
+//   y.style.left = " 50px";
+//   z.style.left = "130px"
+// };
+// function login(){
+//   x.style.left = " 50px";
+//   y.style.left = " 450px";
+//   z.style.left = "0px"
+// };
+
+
+
+// const open = document.getElementById("loginForm");
+// function auth(){
+
+// open.style.opacity = "1";
+//   x.style.left = " 50px";
+//   y.style.left = " 450px";
+//   z.style.left = "0px"
+
+// };
+
+// function reg(){
+
+//   x.style.left = " -400px";
+//   y.style.left = " 50px";
+//   z.style.left = "130px"
+// open.style.opacity = "1";
+// };
+
+
+// function closeLogin(){
+
+//   open.style.opacity = "0";
+// }
+
+
+let loginbtn = document.getElementById('login');
+let registerbtn = document.getElementById('register');
+let btn = document.getElementById('btn');
+
+function register(){
+  loginbtn.style.left = " -400px";
+  registerbtn.style.left = " 50px";
+  btn.style.left = "130px"
+};
+
+function login(){
+  loginbtn.style.left = " 50px";
+  registerbtn.style.left = " 450px";
+  btn.style.left = "0px"
+};
+
+
+
+const open = document.getElementById("loginForm");
+
+function auth(){
+
+  open.style.opacity = "1";
+  loginbtn.style.left = " 50px";
+  registerbtn.style.left = " 450px";
+  btn.style.left = "0px"
+
+};
+
+function reg(){
+
+  loginbtn.style.left = " -400px";
+  registerbtn.style.left = " 50px";
+  btn.style.left = "130px"
+  open.style.opacity = "1";
+};
+
+
+function closeLogin(){
+
+  open.style.opacity = "0";
+}
